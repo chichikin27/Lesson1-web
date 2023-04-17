@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Majestic X';
+    src: url('fonts/majestic_x.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('fonts/majestic_x.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('fonts/majestic_x.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/majestic_x.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('fonts/majestic_x.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/majestic_x.svg#majestic_x') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    background-color: #bac4f1;
+}
+
+h1 {
+    color: #6a09b9;
+    font-family: 'Majestic X', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Majestic X', sans-serif;
+    font-size: 200%;
+}
+.RightSize {
+    float: right; 
+}
+
+.colored {
+    background-color: #910c20;
+}
+
+ul {
+    text-align: center;
+    font-family: 'Majestic X', sans-serif;
+    font-size: 200%;
+}
