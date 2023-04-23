@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Приветствие</title>
+</head>
+<body>
+ <h1>Как вас зовут?</h1>
+ <input type="text" id="nameInput">
+ <button onclick="showName()">Показать имя</button>
+ <p id="nameOutput"></p>
+
+ <script>
+  function showName() {
+   var name = document.getElementById("nameInput").value;
+   document.getElementById("nameOutput").innerHTML = "Привет, " + name + "!";
+  }
+ </script>
+</body>
+</html>
